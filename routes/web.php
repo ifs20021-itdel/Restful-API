@@ -13,23 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-// Route::get('/', function () {
-//     return view('welcome');
-// });
-
 Route::get('/', function () {
-    return view('login');
-});
-
-Route::get('/register', function () {
-    return view('register');
-})->name('singup');
-
-Route::get('index', function () {
-    return view('index');
-});
-
-Route::get('sidenav', function () {
-    return view('sidenav');
+    return view('welcome');
 });
 
